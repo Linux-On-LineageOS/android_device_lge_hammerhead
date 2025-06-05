@@ -135,3 +135,4 @@ SELINUX_IGNORE_NEVERALLOWS := true
 endif
 
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
